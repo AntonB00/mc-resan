@@ -1,0 +1,83 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#home {
+    background-image: url('images/homepage.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+
+#checklist {
+    background-image: url('images/homepage.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+
+#notes {
+    background-image: url('images/homepage.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    
+}
+
+nav {
+    background-color: rgba(2, 49, 64, 0.7) !important;
+    backdrop-filter: blur(10px);
+}
+
+.list-group-item {
+    background: transparent;
+    border: none;
+}
+
+.form-control {
+    background: transparent;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.731);
+}
+
+.form-check-input:checked {
+    background-color: #e8902b;
+    border-color: #e8902b;
+}
+
+.form-check-input:focus {
+    border-color: #e84c2b;
+    box-shadow: 0 0 0 0.25rem rgba(232, 76, 43, 0.25);
+}
+
+.form-check-label,
+.form-check-input[type="checkbox"] {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        padding: 2rem 0 120px 0 !important;
+    }
+}

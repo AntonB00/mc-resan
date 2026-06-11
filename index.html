@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC Resan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+    <header>
+        <nav class="navbar navbar-expand-md" data-bs-theme="dark" style="background-color: #023140;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="index.html">
+                <img src="/images/logo.png" alt="MC Logga" height="50" class="me-2">MC Resan
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav nav-underline">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Hem</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="checklist.html">Checklista</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="notes.html">Anteckningar</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+<main>
+    <div class="container min-vh-100 d-flex align-items-center pb-5 main-container">
+        <div class="row justify-content-center w-100 gy-5 mx-0">
+            <div class="col-md-7">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <div style="background: rgba(232,76,43,0.15); width: 52px; height: 52px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                            <i class="ti ti-motorbike" style="font-size: 35px; color: #e84c2b;"></i>
+                        </div>
+                        <h5>Välkommen!</h5>
+                        <p>MC Resan är din personliga guide genom körkortsprocessen.
+                            Följ din checklista, håll koll på nästa steg och anteckna allt du lär dig.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <div style="background: rgba(232,76,43,0.15); width: 52px; height: 52px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 12px;">
+                            <i class="ti ti-checklist" style="font-size: 35px; color: #11708f;"></i>
+                        </div>
+                        <p id="card-1-Head" class="card-text text-center"></p>
+                        <p id="card-1" class="card-text text-center"></p>
+                        <div class="spinner-border text-warning d-block mx-auto Loader" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</main>
+
+
+<script src="/home.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
