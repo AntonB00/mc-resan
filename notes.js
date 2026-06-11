@@ -27,11 +27,11 @@ saveButton.addEventListener('click', function() {
 function addNote(heading, notes, index) {
     const newCard = document.createElement('div')
     newCard.innerHTML = `
-        <div class="card mt-3" data-index="${index}">
+        <div class="card mt-3 text-center" data-index="${index}">
             <div class="card-body">
                 <h5>${heading}</h5>
                 <p>${notes}</p>
-                <div class="d-flex gap-2 justify-content-center">
+                <div class="d-flex gap-2 justify-content-center pt-3">
                     <button class="btn btn-danger btn-sm delete-btn" type="button">Ta bort</button>
                     <button class="btn btn-warning btn-sm edit-btn" type="button">Redigera</button>
                 </div>

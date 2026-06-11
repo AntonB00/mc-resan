@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MC Resan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body id="notes">
+<body id="checklist">
     <header>
         <nav class="navbar navbar-expand-md" data-bs-theme="dark" style="background-color: #023140;">
         <div class="container-fluid">
@@ -32,30 +31,22 @@
                 </ul>
             </li>
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="notes.html">Anteckningar</a>
+                <a class="nav-link" href="notes.html">Anteckningar</a>
                 </li>
             </ul>
             </div>
         </div>
         </nav>
     </header>
-<main>
-    <div class="container glass mt-2">
-        <div id="alertDiv"></div>
-        <div class="mb-3 text-center">
-            <label for="HeadingTextArea" class="form-label pb-2 text-white">Anteckningar</label>
-            <input class="form-control mb-2" id="HeadingTextArea" placeholder="Rubrik...">
-            <textarea class="form-control" id="NotesTextArea" placeholder="Anteckningar..." rows="3"></textarea>
-            <button id="Save" class="btn btn-primary mt-2" type="button">Spara</button>
+
+    <main class="min-vh-100 d-flex align-items-center justify-content-center">
+        <div class="text-white text-center glass py-4" style="max-width: 400px; width: 100%;">
+            <h5>Kommer snart !</h5>
         </div>
-    </div>
+    </main>
 
-    <div class="container" id="notesDiv">
 
-    </div>
-</main>
-
-<script src="/notes.js"></script>
+<script src="checklist.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

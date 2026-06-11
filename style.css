@@ -46,6 +46,7 @@ body {
 nav {
     background-color: rgba(2, 49, 64, 0.7) !important;
     backdrop-filter: blur(10px);
+    z-index: 9999;
 }
 
 .list-group-item {
@@ -54,7 +55,7 @@ nav {
 }
 
 .form-control {
-    background: transparent;
+    background: transparent !important;
 }
 
 .form-control::placeholder {
