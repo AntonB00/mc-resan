@@ -24,20 +24,26 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    overflow: hidden;
+}
+
+
+#information {
+    background-image: url('images/homepage.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .glass {
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
+    background: rgba(2, 49, 64, 0.85);
     border-radius: 12px;
     padding: 20px;
     max-width: 600px;
 }
 
 .card {
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
+    background: rgba(2, 49, 64, 0.85);
+    border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     color: white;
     
@@ -45,7 +51,6 @@ body {
 
 nav {
     background-color: rgba(2, 49, 64, 0.7) !important;
-    backdrop-filter: blur(10px);
     z-index: 9999;
 }
 

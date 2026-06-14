@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body id="checklist">
+<body id="information">
     <header>
         <nav class="navbar navbar-expand-md" data-bs-theme="dark" style="background-color: #023140;">
         <div class="container-fluid">
@@ -39,14 +39,147 @@
         </nav>
     </header>
 
-    <main class="min-vh-100 d-flex align-items-center justify-content-center">
-        <div class="text-white text-center glass py-4" style="max-width: 400px; width: 100%;">
-            <h5>Kommer snart !</h5>
+    <main>
+        <div class="container glass mt-5 py-5 text-white">
+            <div id="synundersökning">
+                <h5 class="text-center border-bottom pb-2 fw-bold">Gör en synundersökning</h5>
+                <p>Högst två månader innan du ansöker om körkortstillstånd måste du genomföra en synundersökning.</p>
+                <p>Det krävs att du har minst 0.5 i synskärpa när du ser med båda ögonen. Om du behöver glasögon eller kontaktlinser för att nå den gränsen måste du alltid använda dem när du kör.</p>
+                <p>Efter undersökningen ska en optiker eller läkare utfärda ett synintyg och skicka in detta till Transportstyrelsen.</p>
+            </div>
+
+            <div id="körkortstillstånd">
+                <h5 class="text-center border-bottom pb-2 pt-5 fw-bold">Skaffa körkortstillstånd</h5>
+                <p>Oavsett om du ska övningsköra privat eller på en trafikskola så måste du ha ett giltigt körkortstillstånd. Körkortstillståndet utfärdas av Transportstyrelsen och är giltigt i 5 år.</p>
+                <p>När du ansöker om körkortstillstånd bedömer Transportstyrelsen din lämplighet som förare genom att kontrollera olika register. Saker som kan påverka bedömningen är eventuella medicinska hinder eller om du har omhändertagits av polisen för att du har varit för berusad eller begått ett brott.</p>
+                <p>Du ansöker om körkortstillstånd via Transportstyrelsens e-tjänst.</p>
+                <a href="https://www.transportstyrelsen.se/sv/vagtrafik/e-tjanster-och-blanketter/e-tjanster-inom-vagtrafik/?tab=korkort&eservice=korkortstillstand(grupp1)-ansok">Gå till e-tjänsten</a>
+            </div>
+
+            <div id="handledare">
+                <h5 class="text-center border-bottom pb-2 pt-5 fw-bold">Skaffa handledare / skola</h5>
+                <p>Om du har tänkt övningsköra privat så måste du ha en godkänd handledare. Handledaren räknas som förare vid övningskörningen och ansvarar också för att du uppfyller kraven för övningskörningen.</p>
+                <p>Din handledare måste vara minst 24 år, ha ett giltigt körkort för det fordon som ni ska övningsköra med och ha haft sitt körkort under sammanlagt minst 5 av de senaste 10 åren.</p>
+                <p>Personen som ska vara din handledare måste godkännas av Transportstyrelsen. Ett godkännande som handledare gäller i 5 år förutsatt att körkortet inte återkallas.</p>
+                <p>När Transportstyrelsen har godkänt din handledares ansökan skickas ett Bevis om godkännande som handledare vid övningskörning till dig. Beviset ska vara med vid övningskörning.</p>
+                <a href="https://www.transportstyrelsen.se/sv/vagtrafik/e-tjanster-och-blanketter/e-tjanster-inom-vagtrafik/?tab=korkort&eservice=handledarskap-ansok#eservice130159">Ansök om handledarskap</a>
+            </div>
+
+            <div id="pluggateori">
+                <h5 class="text-center border-bottom pb-2 pt-5 fw-bold">Börja plugga teori</h5>
+                <p>Ju tidigare du börjar plugga teori desto bättre förberedd kommer du att vara när det är dags för det riktiga teoriprovet. Om du har möjlighet är det en bra att varva teori och övningskörning redan från början. På så sätt tar du till dig all ny kunskap så snabbt och effektivt som möjligt.</p>
+                <p>Det finns en mängd med olika platformar där man kan plugga teori. En rekommendation är <a href="https://www.ikorkortmc.se/">iKörkort MC</a></p>
+            </div>
+
+            <div id="övningsköra">
+                <h5 class="text-center border-bottom pb-2 pt-5 fw-bold">Börja övningsköra</h5>
+                <p>Innan du börjar övningsköra bör du lägga upp en tydlig strategi och formulera dina mål. Bestäm dig för när vill du vara färdig, hur du ska nå fram, hur mycket du kan och vill övningsköra privat respektive på en trafikskola samt hur mycket allt får kosta.</p>
+                <p>Med en strategi och ett tydligt mål är det lättare att hålla motivationen uppe och dina chanser att ta körkortet ökar!</p>
+                <p>Om du har möjlighet bör du ta några körlektioner på en trafikskola tidigt i din körutbildning. Gärna så fort du kan manövrera motorcykeln utan större problem.</p>
+                <p>Genom att ta några lektioner tidigt får du lära dig de viktigaste grunderna på ett korrekt sätt vilket minskar risken att du lär dig fel från början.</p>
+            </div>
+
+            <div id="riskutbildningar">
+                <h5 class="text-center border-bottom pb-2 pt-5 fw-bold">Boka riskutbildningar</h5>
+                <p>Riskutbildningen består av två separata delar - "Riskettan A" och "Risktvåan A" - som måste vara genomförda och giltiga när du gör förarprovet. Du bör alltså boka tid för båda delarna innan du bokar tid för teoriprov och körprov, så att du hinner genomföra hela riskutbildningen i tid.</p>
+                <p>Riskutbildning för personbil <span class="fw-bold">gäller inte</span> för motorcykel.</p>
+                <h6 class="fw-bold">Risk 1</h6>
+                <p>Riskettan består endast av diskussion och kan därför genomföras i princip när som helst innan teori- och körprovet. Utbildningen är minst 3 timmar lång och brukar kosta ungefär 700-900 kr.</p>
+                <h6 class="fw-bold">Risk 2</h6>
+                <p>Risktvåan bör du genomföra först när du har övningskört så pass mycket att du känner dig trygg på motorcykeln. Risktvåan innehåller nämligen en hel del körning vilket innebär att du måste kunna hantera motorcykeln på ett säkert sätt. Utbildningen är minst 4 timmar lång och brukar kosta 2  500-3 500 kr.</p>
+                <p>Riskutbildningen är giltig i 5 år, men giltighetstiden upphör att gälla då ditt körkort utfärdas. Om du blir av med körkortet och måste göra om teoriprovet och körprovet så måste du alltså genomföra hela riskutbildningen igen.</p>
+                <a href="https://lisutb-p.transportstyrelsen.se/extweb/#/">Hitta en godkänd utbildare</a>
+            </div>
+
+            <div id="förarprovet">
+                <h5 class="text-center border-bottom pb-2 pt-5 fw-bold">Boka förarprov</h5>
+                <p>Förarprovet består av två delar: teoriprovet och körprovet (uppkörningen).</p>
+                <p>Du måste ha en giltig riskutbildning för motorcykel innan du får genomföra förarprovet och du måste klara teoriprovet innan du får göra körprovet.</p>
+                <p>Ditt godkända teoriprov för motorcykel är giltigt i ett år. Om du inte blir godkänd på körprovet under ettårsperioden så måste du göra om teoriprovet.</p>
+                <p>Om du vill kan du boka båda proven direkt. Men du måste klara teoriprovet innan du får göra körprovet.</p>
+                <a href="https://fp.trafikverket.se/Boka/ng/">Boka tid för förarprovet</a>
+            </div>
+
+            <div id="riskettan">
+                <h5 class="text-center border-bottom pb-2 pt-5 fw-bold">Gå riskettan</h5>
+                <p>Riskettan innehåller ingen körning utan är helt och hållet en teoretisk utbildning.</p>
+                <p>Syftet med riskettan är att öka din medvetenhet om farliga beteenden och attityder i trafiken och att ge dig insikter och kunskap som hjälper dig att bli en mer ansvarsfull förare.</p>
+                <p>Riskettan fokuserar främst på hur alkohol, droger, trötthet, stress och grupptryck påverkar din körförmåga. Utbildningen tar även upp risker som är speciella för motorcykel.</p>
+                <p>För att bli godkänd så måste du vara engagerad och aktivt delta i diskussionerna under utbildningen. Du måste även visa upp giltig legitimation för att ditt deltagande ska kunna registreras hos Transportstyrelsen.</p>
+            </div>
+
+            <div id="risktvåan">
+                <h5 class="text-center border-bottom pb-2 pt-5 fw-bold">Gå risktvåan</h5>
+                <p>Syftet med risktvåan är att du ska lära dig att hantera riskfyllda situationer och att du ska förstå och respektera riskerna med motorcykelkörning samt dina och motorcykelns begränsningar. Stor fokus ligger på att känna hur motorcykeln beter sig när du tvingas göra något oväntat.</p>
+                <p>Risktvåan bör du genomföra i slutskedet av din utbildning, när du har övningskört så pass mycket att du känner dig trygg på motorcykeln. Risktvåan innehåller nämligen en hel del körning vilket innebär att du måste kunna hantera motorcykeln på ett säkert sätt. Du måste till exempel klara av att:</p>
+                <ul>
+                    <li>Utföra hårda accelerationer</li>
+                    <li>Bromsa från höga hastigheter</li>
+                    <li>Köra motorcykeln självständigt</li>
+                </ul>
+                <p>För att bli godkänd måste du följa instruktörens anvisningar och aktivt delta under hela utbildningen. Du måste även visa upp giltig legitimation för att ditt deltagande ska kunna registreras hos Transportstyrelsen.</p>
+            </div>
+
+            <div id="teoriprov">
+                <h5 class="text-center border-bottom pb-2 pt-5 fw-bold">Skriv teoriprov</h5>
+                <p>På teoriprovet ska du visa att du har de teoretiska kunskaper som krävs för att du ska kunna köra med gott omdöme i trafiken.</p>
+                <p>Du presterar mycket bättre och tänker klarare om du sover ut ordentligt natten innan provet. Stanna med andra ord inte uppe natten innan för att plugga - om du redan har pluggat ordentligt och känner dig säker på körkortsteorin så är det mycket viktigare att du sover ut än att du pluggar i några timmar till.</p>
+                <p>Provet innehåller frågor om:</p>
+                <ul>
+                    <li>Manövrering, fordon och miljö</li>
+                    <li>Körning i olika trafikmiljöer</li>
+                    <li>Resande med motorcykel i speciella sammanhang</li>
+                    <li>Personliga förutsättningar och målsättningar i livet</li>
+                </ul>
+                <h6 class="fw-bold">Kort om provet</h6>
+                <ul>
+                    <li>Kom minst 30 minuter innan provet börjar så att du hinner bli fotograferad.</li>
+                    <li>Du måste ta med en fysisk och giltig id-handling.</li>
+                    <li>Innan provet startar får du se en video som visar hur provet går till.</li>
+                    <li>Det finns möjlighet att låna miniräknare (men du får inte ta med en egen).</li>
+                    <li>Du har 50 minuter på dig att genomföra provet. Du har alltså knappt 43 sekunder per fråga.</li>
+                    <li>Provet utgörs av 65 frågor (+ 5 testfrågor som inte räknas in i resultatet).</li>
+                    <li>Det krävs 52 rätt för att bli godkänd. Du måste alltså svara rätt på minst 80 % av frågorna.</li>
+                    <li>Resultatet syns direkt på skärmen när du är klar med alla frågor. Resultatet skickas även till din e-postadress.</li>
+                    <li>Du får reda på inom vilka områden du svarat fel, men du får inte se vilka frågor som är felbesvarade.</li>
+                </ul>
+                <p>När du väl skriver provet gäller det att verkligen läsa varje fråga och alla svarsalternativ noggrant. Svarsalternativen är ibland snarlika, så det är viktigt att du verkligen förstår en fråga innan du svarar.</p>
+            </div>
+
+            <div id="köraupp">
+                <h5 class="text-center border-bottom pb-2 pt-5 fw-bold">Upp körning</h5>
+                <p>Vid körprovet (uppkörningen) ska du visa att du kan hantera motorcykeln och att du kan köra i trafiken med gott omdöme och på ett trafiksäkert sätt. Körprovet är en kontroll av att du har de färdigheter som krävs för att få köra i trafiken.</p>
+                <h6 class="fw-bold">Fordonskrav</h6>
+                <p>Körprovet för behörighet A1, A2 och A ska genomföras med en motorcykel som uppfyller de krav som anges i Transportstyrelsens föreskrift, för respektive behörighet. Du måste själv tillhandahålla en sådan motorcykel och du ska använda samma motorcykel under hela provet.</p>
+                <h6 class="fw-bold">Skyddsutrustning</h6>
+                <p>Du ska använda lämplig skyddsutrustning som är avsedd för motorcykelkörning. Utrustningen ska bestå av skyddskläder av skinn eller annat kraftigt material, kraftiga stövlar eller kängor, handskar, ryggskydd och hjälm samt skyddsglasögon om hjälmen saknar visir. Utrustningen ska vara fri från skador.</p>
+                <h6 class="fw-bold">Körprovets moment</h6>
+                <p>Körprovet för motorcykel består av tre olika moment: säkerhetskontroll, ett särskilt manöverprov samt körning i och utanför tätort.</p>
+                <p>Manöverprovet består av en lågfartsdel med krypkörning, en högfartsdel med undanmanöver och en bromsdel med kraftig inbromsning.</p>
+                <p>Om du misslyckas på manöverprovet så kan du i anslutning till det få tillfälle att utföra provet, eller delar av provet, ytterligare en gång. Om du misslyckas igen så får du inte fortsätta körprovet.</p>
+                <h6 class="fw-bold">Bedömning</h6>
+                <p>Förarprövaren gör en helhetsbedömning av din uppkörning baserad på en rad olika punkter inom fem olika områden:</p>
+                <ul>
+                    <li>Säkerhetskontroll</li>
+                    <li>Fordonskännedom och manövrering</li>
+                    <li>Miljö och sparsam körning</li>
+                    <li>Trafikregler och tillämpning</li>
+                    <li>Trafiksäkerhet och beteende</li>
+                </ul>
+                <p>Direkt efter uppkörningen talar förarprövaren om för dig om provet är godkänt eller underkänt och skickar resultatet till Transportstyrelsen.</p>
+                <p>Om ditt körprov blir godkänt skickas ditt körkort till ditt närmaste postombud inom fem arbetsdagar. Du måste själv hämta ut körkortet inom två veckor och du måste visa upp giltig legitimation när du hämtar det.</p>
+                <p>Om ditt körprov blir underkänt motiverar förarprövaren muntligt varför din körning inte har godkänts och du får veta vilka brister din körning hade. Du får även protokollet skickat till din e-postadress.</p>
+            </div>
+
+            <div id="körkortet">
+                <h5 class="text-center border-bottom pb-2 pt-5 fw-bold">Hämta ut ditt körkort</h5>
+                <p>Strax efter att du har klarat körprovet skickas ditt körkort till ditt närmaste postombud. Du måste själv hämta ut körkortet inom två veckor och du måste visa upp giltig legitimation när du hämtar det.</p>
+                <p>Till dess att du har hämtat ut ditt körkort så måste du, när du kör, ha med dig giltig legitimation. Rätten att köra med vanlig legitimation gäller som längst i två månader. Därefter måste du ha med dig ditt nya körkort när du kör.</p>
+            </div>
         </div>
+
     </main>
 
-
-<script src="checklist.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

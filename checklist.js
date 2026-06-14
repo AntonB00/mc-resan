@@ -26,3 +26,6 @@ function updateProgress() {
     bar.style.width = percent + '%';
     bar.setAttribute('aria-valuenow', percent);
 }
+
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+popoverTriggerList.forEach(el => new bootstrap.Popover(el))
