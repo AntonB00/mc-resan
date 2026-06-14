@@ -4,7 +4,7 @@ body {
 
 
 #home {
-    background-image: url('images/homepage.jpg');
+    background-image: url('../images/homepage.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -12,7 +12,7 @@ body {
 }
 
 #checklist {
-    background-image: url('images/homepage.jpg');
+    background-image: url('../images/homepage.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -20,7 +20,7 @@ body {
 }
 
 #notes {
-    background-image: url('images/homepage.jpg');
+    background-image: url('../images/homepage.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -28,7 +28,7 @@ body {
 
 
 #information {
-    background-image: url('images/homepage.jpg');
+    background-image: url('../images/homepage.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
